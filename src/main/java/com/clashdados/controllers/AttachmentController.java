@@ -13,6 +13,7 @@ import com.clashdados.models.Attachment;
 import com.clashdados.models.ResponseData;
 import com.clashdados.services.AttachmentService;
 
+@CrossOrigin
 @RestController
 public class AttachmentController {
 

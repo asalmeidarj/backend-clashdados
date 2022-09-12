@@ -32,6 +32,12 @@ public class Card implements Serializable {
 	@Column(nullable=false, length=250)
 	private String descricao_card;
 	
+	@Column(nullable=false, length=120)
+	private String id_imagem;
+	
+	@Column(nullable=false, length=120)
+	private String url_imagem;
+	
 	@Column(nullable=false)
 	private LocalDateTime registro_card;
 }

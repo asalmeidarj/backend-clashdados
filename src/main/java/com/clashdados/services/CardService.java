@@ -19,6 +19,10 @@ public class CardService {
 		this.cardRepository = cardRepository;		
 	}
 	
+	public double calcular(double a, double b) {
+		return a*a + b;
+	}
+	
 	public Card cadastrarCard(Card card) {
 		card.setRegistro_card(LocalDateTime.now());
 		return cardRepository.save(card);
